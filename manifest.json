@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Refresh Multi-Tab",
+  "version": "1.0",
+  "description": "Lightweight auto refresher that supports multiple tabs (no storage, no page scanning).",
+  "permissions": [
+    "tabs",
+    "alarms"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
